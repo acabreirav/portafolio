@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="widht=device-width, initial-scale=1.0">
+    <title>AlvaroCabreira</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/bfcb3715af.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src = "images/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">HOME</a></li>
+                <li><a href="#services">SERVICIOS</a></li>
+                <li><a href="#portafolio">PORTAFOLIO</a></li>
+                <li><a href="#about">SOBRE MI</a></li>
+                <li><a href="#contact">CONTACTO</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            
+        </nav>
+        <div class="row">
+            <div class="header-text">
+                <h1>ALVARO CABREIRA <br><span>CONSULTOR ANALISTA</span></h1>
+                <p>Procesamiento, análisis y visualización de datos para una toma de decisiones inteligente</p>
+                <a href="#">Mi portafolio</a>
+            </div>
+            <div class="header-image">
+                <img src="images/Imagen 1.png">
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+
+
+<!-- ---------------Servicios------------------- -->
+<div id="services">
+    <div class="container">
+
+        <h1 class="sub-title-servicios">SERVICIOS</h1>
+        <p class="text-servicios">Como consultor analista busco transformar datos en información relevante que permita tomar decisiones inteligentes y así mejorar los resultados de tu negocio. <br>
+            <br>
+            Tengo experiencia en extracción de datos con Python. Además de transformación y visualización de datos con herramientas de Google Cloud Platform (GCP).</p>
+        </div>
+
+        <div class="row-servicios">
+            <div class="services-col-1">
+                <div class="servicio">
+                    <img style="vertical-align: middle;" src = "images/ETL.png" class="service-icon">
+                    <div>
+                        <h2>ETL y Pipelines</h2>
+                        <p>Capacidad de trabajar con datos de tu negocio, o bien, extraer, procesar y cargar datos públicos para su posterior análisis</p>
+                    </div> 
+                </div> 
+
+                <div class="servicio">
+                    <img src = "images/analisis.png" class="service-icon">
+                    <div>
+                        <h2>Análisis de datos</h2>
+                        <p>Conoce el rendimiento de tu negocio en base a distintos indicadores y obtén recomendaciones para mejores resultados.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="services-col-2">
+                <div class="servicio">
+                    <img src = "images/Panel BI.png" class="service-icon">
+                    <div>
+                        <h2>Paneles BI</h2>
+                        <p>Dashboards dinámicos para la visualización de datos. Filtra, ordena y profundiza en la data con solo un click.</p>
+                    </div>
+                </div>
+                <div class="servicio">
+                    <img src = "images/ML.png" class="service-icon">
+                    <div>
+                        <h2>Analítica de datos + ML</h2>
+                        <p>Genera valor de tus datos: obtén estimaciones de ventas futuras y dirige tus esfuerzos hacia los clientes correctos.</p>
+                    </div>
+                </div>
+            
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+<!-- ---------------Portafolio------------------- -->
+<div id="portafolio">
+    <div class="container">
+        <h1 class="sub-title-portafolio">PORTAFOLIO</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/Panel SIES chico.png" alt=""><br>
+                <h3> Panel de datos SIES</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet mattis vulputate enim nulla. Viverra nam libero justo laoreet.</p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+
+            <div class="work">
+                <img src="images/Panel IE chico.png" alt=""><br>
+                <h3> Panel de datos Universidad</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet mattis vulputate enim nulla. Viverra nam libero justo laoreet.</p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+            <div class="work">
+                <img src="images/Panel SIES chico.png" alt=""><br>
+                <h3> Panel de datos Universidad</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet mattis vulputate enim nulla. Viverra nam libero justo laoreet.</p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+            </div>
+        </div>
+       <a href="#" class="btn">Ver más</a>
+    </div>
+</div>
+
+
+
+
+
+
+<!-- ---------------about------------------- -->
+<div id="about">
+    <div class="container">
+        <div class="row-about">
+            <div class="about-col-1">
+                <img src="images/fotomia 1.png" alt="fotomia">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title-about">SOBRE MI</h1>
+                <p class="text-about">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet mattis vulputate enim nulla. Viverra nam libero justo laoreet. Suspendisse potenti nullam ac tortor vitae purus faucibus ornare. Urna nunc id cursus metus aliquam eleifend mi in. Diam vel quam elementum pulvinar etiam non.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('habilidades')">Habilidades</p>
+                    <p class="tab-links"  onclick="opentab('experiencia')">Experiencia</p>
+                    <p class="tab-links"  onclick="opentab('educación')">Educación</p>
+                </div>
+                <div class="tab-contents active-tab" id="habilidades">
+                    <ul>
+                        <li><span>SQL</span><br>BigQuery</li>
+                        <li><span>Python</span><br>BigQuery</li>
+                        <li><span>HTML/CSS</span><br>BigQuery</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="experiencia">
+                    <ul>
+                        <li><span>2021 - Actualidad</span><br> Data Analyst Technologyhem</li>
+                        <li><span>Python</span><br>BigQuery</li>
+                        <li><span>HTML/CSS</span><br>BigQuery</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="educación">
+                    <ul>
+                        <li><span>2022</span><br>Ingeniero Civil Industrial, PUC</li>
+                        <li><span>2023</span><br>Data Analyst Certification, Google CloudSkillBoost</li>
+                        <li><span>HTML/CSS</span><br>BigQuery</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+
+
+
+
+
+<!-- ---------------Contacto------------------- -->
+
+<div id="contact">
+    <div class="container">
+        <div class="texto">
+            <h1 class="sub-title-contacto">CONTACTO</h1>
+            <P class="text-contacto"> <span>Hola!</span><br>Puedes contactarme por medio de este formulario.</P>
+
+        </div>
+
+
+        <div class="contacto">
+            <form>
+                <div class="row-contact">
+                    <div class="box">
+                        <p >Tu nombre:</p>
+                        <input type="text", name="Nombre" required>
+                    </div>
+                    
+                    <div class="box">
+                        <p >Tu email:</p>
+                        <input type="email", name="email"  required>
+                    </div>
+                    
+                </div>
+                <br>
+                <p class="box">Escribe tu mensaje aquí:</p>
+                <textarea name="Mensaje", rows="6"></textarea>
+                <br>
+                <button type="submit" class="btn btn2">Enviar</button>
+            </form>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © AlvaroCabreira. Made with <i class="fa-solid fa-heart"></i> by Alvaro Cabreira</p>
+    </div>
+</div>
+
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links")
+    var tabcontents = document.getElementsByClassName("tab-contents")
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+
+<script>
+    var sidemenu= document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+
+
+</body>
+</html>
+
+
